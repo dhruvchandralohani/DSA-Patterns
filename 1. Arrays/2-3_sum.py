@@ -35,23 +35,28 @@ Constraints:
 -105 <= nums[i] <= 105
 """
 from typing import List
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)           # Get the length of the input array
         res = []                # Initialize result list to store valid triplets
         nums.sort()             # Sort the array: enables two-pointer and duplicate skipping
+        
         # Outer loop: Fix the first element (nums[i])
         for i in range(n):
             # Skip duplicate values for nums[i] to avoid duplicate triplets
             # Only check if i > 0 to allow the first occurrence
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
+            
             # Two pointers: left starts right after i, right at the end
             j = i + 1
             k = n - 1
+            
             # Inner loop: Find two numbers in [i+1, n-1] that sum to -nums[i]
             while j < k:
                 total = nums[i] + nums[j] + nums[k]  # Current sum of triplet
+                
                 # If sum is too large, decrease the largest number
                 if total > 0:
                     k -= 1
@@ -61,6 +66,7 @@ class Solution:
                 # Found a valid triplet: [nums[i], nums[j], nums[k]]
                 else:
                     res.append([nums[i], nums[j], nums[k]])
+                    
                     # Move left pointer forward
                     j += 1
                     # Skip duplicates for nums[j] to avoid repeated triplets
@@ -68,4 +74,5 @@ class Solution:
                         j += 1
                     # Note: We don't need to skip k duplicates here because
                     # we're moving j forward and k will be adjusted naturally
+        
         return res  # Return all unique triplets that sum to zero
