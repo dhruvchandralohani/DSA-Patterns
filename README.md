@@ -9,10 +9,10 @@ A comprehensive resource covering all patterns of DSA, including Arrays, Strings
 - 2 sum
 - 3 sum
 - 3 sum closest
+- 3 sum smaller
+- 4 sum
 - Remove duplicates from sorted array
 - Squares of a sorted array
-- 4 sum
-- 3 sum smaller
 - Number of arithmetic triplets
 - Minimum sum of maountain triplets I
 - Minimum sum of maountain triplets II
