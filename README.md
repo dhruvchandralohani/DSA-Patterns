@@ -3,6 +3,7 @@ A comprehensive resource covering all patterns of DSA, including Arrays, Strings
 # Arrays
 ## Two Pointers
 ***Scenario***: Look for problems where you need to iterate through the array with two pointers, typically starting from different ends or positions within the array. - Consider tasks that involve comparing or manipulating elements from two different parts of the array simultaneously.
+
 ***Clue***: Look for problem descriptions mentioning a sorted array or the need to compare elements from both ends of the array.
 > Problems
 - 2 sum
