@@ -17,7 +17,7 @@ A comprehensive resource covering all patterns of DSA, including Arrays, Strings
 - Minimum sum of maountain triplets I
 - Minimum sum of maountain triplets II
 ## Merge Intervals
-***Scenario***:  Identify problems involving intervals or ranges of values, such as time intervals, scheduling, or overlapping events. - Look for tasks where you need to combine or compare intervals, merge overlapping intervals, or find intersections between them.
+***Scenario***: Identify problems involving intervals or ranges of values, such as time intervals, scheduling, or overlapping events. - Look for tasks where you need to combine or compare intervals, merge overlapping intervals, or find intersections between them.
 
 ***Clue***: Look for problems where the input involves intervals represented as pairs of start and end points, and the task revolves around combining or manipulating these intervals.
 > Problems
@@ -25,3 +25,13 @@ A comprehensive resource covering all patterns of DSA, including Arrays, Strings
 - Insert Interval
 - Non-overlapping Intervals
 - Interval List Intersections
+## Sorting
+***Scenario***: Consider problems where arranging elements in a specific order can simplify searching, counting, or comparing elements efficiently. - Look for tasks where sorting elements according to certain criteria can lead to a solution or optimize subsequent operations.
+
+***Clue***: Look for problems mentioning that the array needs to be sorted first or hints that sorting might facilitate the solution process.
+> Problems
+- Sort Colors
+- Meeting Rooms II
+- Largest Number
+- Wiggle Sort II
+- Merge Sorted Array
