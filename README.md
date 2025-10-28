@@ -35,3 +35,13 @@ A comprehensive resource covering all patterns of DSA, including Arrays, Strings
 - Largest Number
 - Wiggle Sort II
 - Merge Sorted Array
+## Sliding Window
+***Scenario***: Identify problems involving contiguous subarrays or substrings where you need to maintain a window of elements and slide it across the array. - Look for tasks where you need to track a subset of elements within the array that satisfies specific conditions.
+
+***Clue***: Look for problems involving contiguous subarrays, hints that a "window" needs to slide through the array, or mention of properties like "maximum sum" or "minimum length."
+> Problems
+- Minimum Size Sub-Array Sum
+- Longest Mountain in Array
+- Longest Continuous Increasing Subsequence
+- Maximum Points You Can Obtain from Cards
+- Maximum Product Sub-Array
