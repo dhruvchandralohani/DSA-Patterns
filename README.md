@@ -45,3 +45,13 @@ A comprehensive resource covering all patterns of DSA, including Arrays, Strings
 - Longest Continuous Increasing Subsequence
 - Maximum Points You Can Obtain from Cards
 - Maximum Product Sub-Array
+## Prefix Sums
+***Scenario***: Consider problems where you need to compute cumulative sums or averages of elements in subarrays or answer queries about subarray sums efficiently. - Look for tasks where precomputing sums or other aggregate values can help reduce the time complexity of operations involving subarrays.
+
+***Clue***: Look for problems mentioning subarray sums, cumulative sums, or range sums, and hints that precomputing sums might optimize the solution.
+> Problems
+- Count of Smaller Numbers after Self
+- Range Sum Query - Mutable
+- Count of Range Sum
+- Subarray Product Less Than K
+- Find All Duplicates in an Array
