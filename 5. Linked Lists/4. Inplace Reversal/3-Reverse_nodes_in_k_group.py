@@ -70,6 +70,7 @@ class Solution:
             nxt = curr.next       # Second node (will be used to move nodes)
             
             # Step 6.1: Reverse the links for (k-1) pairs (we reverse k-1 connections)
+            # repeatedly take the node after curr (nxt) and insert it right after prev.
             for _ in range(1, k):
                 # Move the next node (nxt) to the front of the group
                 curr.next = nxt.next      # Skip nxt temporarily
